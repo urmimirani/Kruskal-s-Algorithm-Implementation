@@ -1,7 +1,6 @@
 # Kruskal-s-Algorithm-Implementation
 
 Authors: Urmi Riteshkumar Mirani, Tvisha Patel
-Roll Numbers: 22BCE363, 22BCE361
 
 ## Overview
 This project involves designing an abstract data type (ADT) for an undirected graph and implementing Kruskal’s algorithm to find the minimum spanning tree (MST). The graph data is read from a file, and the MST is computed using efficient algorithms.
@@ -23,20 +22,20 @@ where n is the number of nodes, m is the number of edges, and each subsequent li
 ### Compiling and Running
 
 1. Compile the code:
-g++ -o graph graph.cpp
-g++ -o kruskal kruskal.cpp
+- g++ -o graph graph.cpp
+- g++ -o kruskal kruskal.cpp
 
 2. Run the graph operations:
-./graph
+- ./graph
 
 3. Run Kruskal’s algorithm:
-./kruskal
+- ./kruskal
 
 
 ## Project Structure
 
-graph.cpp: Contains the implementation of the Graph ADT.
-kruskal.cpp: Contains the implementation of Kruskal’s MST algorithm.
+- graph.cpp: Contains the implementation of the Graph ADT.
+- kruskal.cpp: Contains the implementation of Kruskal’s MST algorithm.
 
 ## Features
 
